@@ -33,7 +33,7 @@ namespace TestWebApp
 
         // Ciphersuit policy for this server:
 static readonly System.Net.Security.CipherSuitesPolicy cipherSuitesPolicy = new System.Net.Security.CipherSuitesPolicy
-    (
+    ( 
         new System.Net.Security.TlsCipherSuite[]
         {
             // Cipher suits as recommended by: https://wiki.mozilla.org/Security/Server_Side_TLS
