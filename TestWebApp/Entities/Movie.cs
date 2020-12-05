@@ -9,7 +9,7 @@ namespace TestWebApp.Entities
     public class Movie
     {
         public int Id { get; set; }
-        public int Name { get; set; }
+        public string Name { get; set; }
         [DataType(DataType.Date)]
         public DateTime Date { get; set; }
     }
